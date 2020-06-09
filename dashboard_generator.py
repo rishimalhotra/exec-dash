@@ -11,9 +11,9 @@ import pandas
 #csv_filepath = "data/products.csv"
 #csv_filepath = os.path.join(os.path.dirname(__file__), "..", "sales-201710.csv")
 csv_filepath = "data/monthly-sales/sales-201710.csv"
-sales = pandas.read_csv("data/monthly-sales/sales-201710.csv")
+#sales = pandas.read_csv("data/monthly-sales/sales-201710.csv")
 
-df = pandas.read_csv(csv_filepath)
+df = pandas.read_csv(csv_filepath) #df dataframe is the variable to put into pandas dataframe format
 
 print("-----------------------")
 print("TOTAL MONTHLY SALES: $12,000.71")
