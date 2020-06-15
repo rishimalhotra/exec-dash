@@ -1,4 +1,4 @@
-date,product,unit price,units sold,sales price
+date,product,unit_price,units_sold,sales_price
 2017-10-01,Super Soft Sweater,149.99,1,149.99
 2017-10-01,Super Soft Hoodie,75.00,2,150.00
 2017-10-01,Vintage Logo Tee,15.95,1,15.95
