@@ -31,7 +31,7 @@ df = pandas.read_csv(csv_filepath)
 df["sales_total"] = df["units_sold"] * df["sales_price"]
 print(df.head(6))
 print(totals.columns.tolist())
-my_saletotal = totals.groupby(['product'])[['sales_total']].sum()
+my_saletotal = df.groupby(['product'])[['sales_total']].sum()
 
 print(my_saletotal)
 
@@ -54,7 +54,6 @@ print(my_saletotal)
 #total_sales = to_usd(sales_price)
 #print(total_sales)
 
-breakpoint()
 
 #import plotly
 #import plotly.graph_objs as go
